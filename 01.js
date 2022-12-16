@@ -11,6 +11,8 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+  let onlyNumbers = array.filter(x => x !== x.toString());
+  return onlyNumbers;
 
 }
 
